@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/chiliz/static/css/main.80f0cf58.chunk.css",
+    "main.js": "/chiliz/static/js/main.b8450bc6.chunk.js",
+    "main.js.map": "/chiliz/static/js/main.b8450bc6.chunk.js.map",
+    "runtime-main.js": "/chiliz/static/js/runtime-main.2a3e2c57.js",
+    "runtime-main.js.map": "/chiliz/static/js/runtime-main.2a3e2c57.js.map",
+    "static/js/2.c243e450.chunk.js": "/chiliz/static/js/2.c243e450.chunk.js",
+    "static/js/2.c243e450.chunk.js.map": "/chiliz/static/js/2.c243e450.chunk.js.map",
+    "index.html": "/chiliz/index.html",
+    "static/css/main.80f0cf58.chunk.css.map": "/chiliz/static/css/main.80f0cf58.chunk.css.map",
+    "static/js/2.c243e450.chunk.js.LICENSE.txt": "/chiliz/static/js/2.c243e450.chunk.js.LICENSE.txt",
+    "static/media/90IFBK.f1584a36.png": "/chiliz/static/media/90IFBK.f1584a36.png",
+    "static/media/ALL-Plain-Logo.76740c86.png": "/chiliz/static/media/ALL-Plain-Logo.76740c86.png",
+    "static/media/YB_90.d35bd2f0.png": "/chiliz/static/media/YB_90.d35bd2f0.png",
+    "static/media/cai-w2.cd5ec552.png": "/chiliz/static/media/cai-w2.cd5ec552.png",
+    "static/media/coin.5bb4aa3f.png": "/chiliz/static/media/coin.5bb4aa3f.png",
+    "static/media/fortuna90.3ac3b1ea.png": "/chiliz/static/media/fortuna90.3ac3b1ea.png",
+    "static/media/mc-90.3f127167.png": "/chiliz/static/media/mc-90.3f127167.png",
+    "static/media/mi-11.0a363031.png": "/chiliz/static/media/mi-11.0a363031.png",
+    "static/media/Partners.scss": "/chiliz/static/media/partners.da37a8c3.jpg",
+    "static/media/phone.05ceec47.png": "/chiliz/static/media/phone.05ceec47.png",
+    "static/media/pressCoverage.33df7d93.png": "/chiliz/static/media/pressCoverage.33df7d93.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2a3e2c57.js",
+    "static/js/2.c243e450.chunk.js",
+    "static/css/main.80f0cf58.chunk.css",
+    "static/js/main.b8450bc6.chunk.js"
+  ]
+}

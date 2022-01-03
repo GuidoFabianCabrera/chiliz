@@ -1,0 +1,68 @@
+.press_coverage {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 64px;
+
+  @media screen and (min-width: 765px) {
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+
+  &__container {
+    width: inherit;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+    flex-direction: inherit;
+  }
+
+  &__text {
+    align-self: center;
+  }
+
+  &__title {
+    font-size: 20px;
+    margin: 30px 0;
+    @media screen and (min-width: 765px) {
+      margin-top: 0;
+    }
+    @media screen and (min-width: 768px) {
+      font-size: 32px;
+    }
+  }
+
+  &__description {
+    font-size: 15px;
+    margin: 15px 0;
+    @media screen and (min-width: 765px) {
+      margin-bottom: 80px;
+    }
+  }
+
+  &__image {
+    width: 100%;
+    padding: 15px 40px;
+  }
+
+  &__button {
+    display: inline-block;
+    margin: 12px 0;
+    padding: 10px 15px;
+    font-family: 'Ropa Sans';
+
+    font-size: 15px;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0)
+      linear-gradient(90deg, rgb(183, 0, 0) 0%, rgb(157, 0, 0) 100%) repeat
+      scroll 0% 0%;
+    @media screen and (min-width: 765px) {
+      margin: 16px 0;
+    }
+    @media screen and (min-width: 778px) {
+      padding: 15px 15px;
+    }
+  }
+}

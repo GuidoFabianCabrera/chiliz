@@ -1,0 +1,123 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 36px;
+
+  text-align: center;
+
+  @media screen and (min-width: 765px) {
+    margin-top: 48px;
+    flex-direction: row-reverse;
+  }
+
+  @media screen and (min-width: 778px) {
+    text-align: left;
+  }
+
+  &__container {
+    width: inherit;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+    flex-direction: inherit;
+
+    @media screen and (min-width: 765px) {
+      max-width: 90%;
+      margin: auto;
+    }
+    @media screen and (min-width: 1200px) {
+      max-width: 1100px;
+      width: 100%;
+    }
+  }
+
+  &__image {
+    position: relative;
+    height: fit-content;
+    margin: 15px 40px;
+  }
+
+  &__phone {
+    width: 100%;
+  }
+
+  &__certik {
+    width: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    @media screen and (min-width: 765px) {
+      width: 60px;
+      top: initial;
+      bottom: -30px;
+    }
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    @media screen and (min-width: 765px) {
+      width: 60%;
+    }
+    @media screen and (min-width: 778px) {
+      align-items: flex-start;
+    }
+  }
+
+  &__title {
+    font-size: 20px;
+    line-height: 32px;
+    @media screen and (min-width: 765px) {
+      font-size: 22px;
+      line-height: 42px;
+    }
+    @media screen and (min-width: 778px) {
+      font-size: 32px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 512px;
+      font-size: 35px;
+    }
+  }
+
+  &__description {
+    margin: 24px 0 12px;
+
+    font-size: 13px;
+    line-height: 22px;
+
+    @media screen and (min-width: 765px) {
+      margin: 32px 0 16px;
+
+      font-size: 15px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 400px;
+    }
+  }
+
+  &__button {
+    display: inline-block;
+    margin: 12px 0;
+    padding: 10px 15px;
+    font-family: 'Ropa Sans';
+
+    font-size: 15px;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0)
+      linear-gradient(90deg, rgb(183, 0, 0) 0%, rgb(157, 0, 0) 100%) repeat
+      scroll 0% 0%;
+    @media screen and (min-width: 765px) {
+      margin: 16px 0;
+    }
+    @media screen and (min-width: 778px) {
+      padding: 15px 15px;
+    }
+  }
+}

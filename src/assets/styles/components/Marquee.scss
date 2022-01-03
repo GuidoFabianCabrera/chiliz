@@ -1,0 +1,84 @@
+.marquee {
+  position: relative;
+  width: 100%;
+  height: 90px;
+  overflow: hidden;
+
+  @media screen and (min-width: 600px) {
+    height: 110px;
+    margin: auto;
+  }
+  @media screen and (min-width: 640px) {
+    width: 640px;
+  }
+
+  &::before {
+    left: 0;
+    background: linear-gradient(to right, #080e23 0%, transparent 100%);
+    position: absolute;
+    top: 0;
+    width: 10rem;
+    height: 100%;
+    content: '';
+    z-index: 1;
+  }
+  &::after {
+    position: absolute;
+    top: 0;
+    width: 10rem;
+    height: 100%;
+    content: '';
+    z-index: 1;
+    right: 0;
+    background: linear-gradient(to left, #080e23 0%, transparent 100%);
+  }
+
+  &__title {
+    margin: 16px 0;
+    text-align: center;
+    font-size: 10px;
+    @media screen and (min-width: 765px) {
+      font-size: 11px;
+    }
+  }
+
+  &__content {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    animation: scrolling 72s linear infinite;
+  }
+
+  &__item {
+    width: 15%;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-shrink: 0;
+
+    @media screen and (min-width: 600px) {
+      align-items: center;
+      padding-bottom: 0;
+    }
+    img {
+      width: 35px;
+      height: 35px;
+      object-fit: contain;
+
+      @media screen and (min-width: 600px) {
+        width: 60px;
+        height: 60px;
+      }
+    }
+  }
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-360%);
+  }
+}

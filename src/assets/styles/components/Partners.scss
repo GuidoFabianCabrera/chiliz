@@ -1,0 +1,56 @@
+.partners {
+  text-align: center;
+  background-image: url(../../static/partners.jpg);
+  background-size: cover;
+  background-position: center;
+
+  @media screen and (min-width: 768px) {
+    padding: 112px 0;
+  }
+
+  &__container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 36px 0;
+    @media screen and (min-width: 768px) {
+      max-width: 90%;
+      padding: 64px 0;
+    }
+    @media screen and (min-width: 1200px) {
+      max-width: 1000px;
+    }
+  }
+
+  &__title {
+    margin: 30px 0;
+    font-size: 20px;
+    @media screen and (min-width: 765px) {
+      font-size: 27px;
+    }
+  }
+
+  &__description {
+    margin: 15px 0;
+    font-size: 15px;
+    line-height: 28px;
+  }
+
+  &__button {
+    display: inline-block;
+    margin: 12px 0;
+    padding: 10px 15px;
+    font-family: 'Ropa Sans';
+
+    font-size: 15px;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0)
+      linear-gradient(90deg, rgb(183, 0, 0) 0%, rgb(157, 0, 0) 100%) repeat
+      scroll 0% 0%;
+    @media screen and (min-width: 765px) {
+      margin: 16px 0;
+    }
+    @media screen and (min-width: 778px) {
+      padding: 15px 15px;
+    }
+  }
+}
